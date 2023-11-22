@@ -5,7 +5,7 @@
 
 #txtlerin içerisinde yazan ilk sayı 0 ise kodu çalıştırmaya hazırsınız. (Değilse iletişime geçin)
 
-#Şimdi txt-organizer.py dosyasını labels klasörünün içerisine atınız ve açınız.
+#Şimdi txt-organizer.py dosyasını açınız.
 
 #Kod içerisinde belirtilen düzeltmeleri yapınız ve kodu çalıştırınız.
 
