@@ -1,5 +1,5 @@
 #Aşağıdaki bulunan degistirilecekTxtlerinYolu değişkenini tırnak işaretlerine dikkat ederek kendi bilgisayarınızda labels klasörünün yoluyla değiştiriniz.
-#Sonrasında tabelanızın numarasına göre kaclaDegistirilecek değişkenini yine tırnak işaretine dikkat ederek düzenleyiniz.
+#Sonrasında tabelanızın index numarasına göre kaclaDegistirilecek değişkenini yine tırnak işaretine dikkat ederek düzenleyiniz.
 import os
 
 degistirilecekTxtlerinYolu="C:\\Users\\Yakup\\Resimler\\Yeniklasor\\"
