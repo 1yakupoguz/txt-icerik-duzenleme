@@ -3,15 +3,15 @@
 import os
 
 degistirilecekTxtlerinYolu="C:\\Users\\Yakup\\Resimler\\Yeniklasor\\"
-kaclaDegistirilecek='22'
+kaclaDegistirilecek='23'
 
 def degistirmeFonksiyonu(yol,data):
     if not os.path.exists(yol):
         raise FileNotFoundError("Geçersiz yol")
     if not isinstance(kaclaDegistirilecek, str):
         raise TypeError("kaclaDegistirilecek değişkenini tanımlarken tırnak koyunuz. Örnek kaclaDegistirilecek='22'")
-    if not 0 <= int(kaclaDegistirilecek) <= 21:
-        raise ValueError("kaclaDegistirilecek değişkeni 0 ile 21 aralığında olmalıdır")
+    if not 0 <= int(kaclaDegistirilecek) <= 22:
+        raise ValueError("kaclaDegistirilecek değişkeni 0 ile 22 aralığında olmalıdır")
     else:
         for (dirname, dirs, files) in os.walk(yol):
             for filename in files:
